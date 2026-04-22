@@ -1,0 +1,42 @@
+# ============================================================
+# DOCUMENT GENERATOR — BRANDING CONFIGURATION
+# ============================================================
+# Customize this file to match your team/company branding.
+# The doc-generator skill reads this to produce branded output.
+# ============================================================
+
+branding:
+  company: "TODO: Your Company Name"
+  logo: "./assets/logo.svg"
+  primary_color: "#4361ee"           # TODO: Pick from palette below
+  secondary_color: "#1a1a2e"         # TODO: Pick from palette below
+  accent_color: "#ffd700"            # TODO: Pick from palette below
+  font_family: "Inter, system-ui, -apple-system, sans-serif"
+  heading_font: "Inter, system-ui, -apple-system, sans-serif"
+
+# ── PALETTE SUGGESTIONS ──────────────────────────────────────
+# Corporate Blue:    #1e40af / #0f172a / #f59e0b
+# Tech Green:        #059669 / #1a1a2e / #06b6d4
+# Office Standard:   #4361ee / #1a1a2e / #ffd700
+# ─────────────────────────────────────────────────────────────
+
+document:
+  title: "Project Documentation"
+  subtitle: "TODO: Architecture & API Reference"
+  author: "TODO: Your Team Name"
+  version: "1.0"
+  date: "auto"
+
+# Sections appear in this order in the document.
+# Comment out any section you don't need.
+sections:
+  - project-overview
+  - architecture
+  - api-reference
+  - data-model
+  - coding-conventions
+  - getting-started
+
+output:
+  format: "html"
+  path: "./docs/project-docs.html"
